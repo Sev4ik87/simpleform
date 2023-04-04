@@ -14,61 +14,81 @@
       <form> 
         <fieldset>
           <legend>Личные данные</legend>
+         <div>
+          <label for="name">Имя</label> 
+          <input autofocus id="firstname">
+        </div>
       
-      Имя
-        <input name="firstname" type="text">
-      <br>
-      Фамилия
-        <input name="lastname" type="text"><br>
-        <form>
-      День рождения
-          <input type="datetime-local" name="bdaytime">
-        </form>
-        <form>
+      <div>
+        <label for="lastname"> Фамилия</label> 
+        <input autofocus id="lastname">
+      </div>
+      
+        
+      <div>
+      <label for="birthday"> День рождения</label> 
+      <input type="datetime-local" name="bdaytime">
+      </div>  
+      <div>
           <input type="radio" name="gender" value="male" checked> Male<br>
           <input type="radio" name="gender" value="female"> Female<br>
-        </form> 
+      </div>
       </fieldset>
-      <form> 
+    <br>
         <fieldset>
           <legend>Адрессные данные</legend>
-          Город
-
-          <select name="town">
+          
+          <div>
+            <label for="town">Город</label> 
+            <select name="town">
             <option value="Odesa">Odesa</option>
             <option value="Kyiv">Kyiv</option>
             <option value="Zaporozhie">Zaporozhie</option>
           </select>
-          <br>
-      Улица
-        <input name="street" type="text">
-      <br>
-      Номер дома
-        <input name="number" type="text"><br>
-        
-      Квартира
+          </div>
+          
+      
+     <div>
+      <label for="stret">Улица</label> 
+      <input name="street" type="text">
+      </div>
+      
+      <div>
+      <label for="number">Номер дома</label> 
+      <input name="number" type="text"><br>
+      </div>
+    <div>  
+      <label for="room">Квартира</label> 
       <input name="room" type="text"><br>
+    </div>
    </fieldset>
-  </form> 
-  <form> 
+  
+  <br>
     <fieldset>
       <legend>Контактные данные</legend>
-      Мобильный
-      <input name="street" type="text">
-    <br>
-  Рабочий
-    <input name="street" type="text">
-  <br>
-  Домашний
-    <input name="number" type="text"><br>
+      <div>
+    <label for="mobile">Мобильный</label> 
+     <input name="mobile" type="text">
+    </div>
     
-  Email
-  <input name="room" type="text"><br>
+  <div>
+    <label for="mobilework">Рабочий </label> 
+    <input name="mobilework" type="text">
+  </div>
+  
+<div>
+     <label for="homenumber">Домашний </label> 
+     <input name="homenumber" type="text"><br>
+  </div>
+<div>  
+  <label for="emeil">Email</label> 
+  <input name="emeil" type="text"><br>
+<div>
 </fieldset>
 </form> 
 <br> 
-<button type="button" onclick="alert('cancel')">Cancel</button>
-<button type="button" onclick="alert('ok')">Ok</button>
+<button type="button" >Cancel</button>
+<button type="button" >Ok</button>
 
     </main>
     <footer></footer>
