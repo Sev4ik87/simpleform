@@ -16,18 +16,18 @@
           <legend>Личные данные</legend>
          <div>
           <label for="name">Имя</label> 
-          <input autofocus id="firstname">
+          <input autofocus id="name">
         </div>
       
       <div>
         <label for="lastname"> Фамилия</label> 
-        <input autofocus id="lastname">
+        <input id="lastname">
       </div>
       
         
       <div>
-      <label for="birthday"> День рождения</label> 
-      <input type="datetime-local" name="bdaytime">
+      <label for="bdaytime"> День рождения</label> 
+      <input type="datetime-local" id="bdaytime">
       </div>  
       <div>
           <input type="radio" name="gender" value="male" checked> Male<br>
@@ -40,7 +40,7 @@
           
           <div>
             <label for="town">Город</label> 
-            <select name="town">
+            <select id="town">
             <option value="Odesa">Odesa</option>
             <option value="Kyiv">Kyiv</option>
             <option value="Zaporozhie">Zaporozhie</option>
@@ -49,41 +49,44 @@
           
       
      <div>
-      <label for="stret">Улица</label> 
-      <input name="street" type="text">
+      <label for="street">Улица</label> 
+      <input id="street" type="text">
       </div>
       
       <div>
       <label for="number">Номер дома</label> 
-      <input name="number" type="text"><br>
+      <input id="number" type="text"><br>
       </div>
     <div>  
       <label for="room">Квартира</label> 
-      <input name="room" type="text"><br>
+      <input id="room" type="text"><br>
     </div>
    </fieldset>
   
   <br>
-    <fieldset>
+
+  <fieldset>
+
       <legend>Контактные данные</legend>
       <div>
     <label for="mobile">Мобильный</label> 
-     <input name="mobile" type="text">
+     <input id="mobile" type="text">
     </div>
     
   <div>
     <label for="mobilework">Рабочий </label> 
-    <input name="mobilework" type="text">
+    <input id="mobilework" type="text">
   </div>
   
 <div>
      <label for="homenumber">Домашний </label> 
-     <input name="homenumber" type="text"><br>
+     <input id="homenumber" type="text"><br>
   </div>
-<div>  
-  <label for="emeil">Email</label> 
-  <input name="emeil" type="text"><br>
+
 <div>
+  <label for="emeil">Email</label> 
+  <input id="emeil" type="text"><br>
+</div>
 </fieldset>
 </form> 
 <br> 
