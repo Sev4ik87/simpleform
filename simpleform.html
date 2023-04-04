@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>fieldset {display: inline-block}</style>
+
+    <title>Simpleform</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Form example</h1>
+      <a href="">Home</a>
+      <form> 
+        <fieldset>
+          <legend>Личные данные</legend>
+      
+      Имя
+        <input name="firstname" type="text">
+      <br>
+      Фамилия
+        <input name="lastname" type="text"><br>
+        <form>
+      День рождения
+          <input type="datetime-local" name="bdaytime">
+        </form>
+        <form>
+          <input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+        </form> 
+      </fieldset>
+      <form> 
+        <fieldset>
+          <legend>Адрессные данные</legend>
+          Город
+
+          <select name="town">
+            <option value="Odesa">Odesa</option>
+            <option value="Kyiv">Kyiv</option>
+            <option value="Zaporozhie">Zaporozhie</option>
+          </select>
+          <br>
+      Улица
+        <input name="street" type="text">
+      <br>
+      Номер дома
+        <input name="number" type="text"><br>
+        
+      Квартира
+      <input name="room" type="text"><br>
+   </fieldset>
+  </form> 
+  <form> 
+    <fieldset>
+      <legend>Контактные данные</legend>
+      Мобильный
+      <input name="street" type="text">
+    <br>
+  Рабочий
+    <input name="street" type="text">
+  <br>
+  Домашний
+    <input name="number" type="text"><br>
+    
+  Email
+  <input name="room" type="text"><br>
+</fieldset>
+</form> 
+<br> 
+<button type="button" onclick="alert('cancel')">Cancel</button>
+<button type="button" onclick="alert('ok')">Ok</button>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
