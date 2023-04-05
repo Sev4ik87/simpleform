@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <style>fieldset {display: inline-block}</style>
+    <meta charset="utf-8" />
+    <style>
+      fieldset {
+        display: inline-block;
+      }
+    </style>
 
     <title>Simpleform</title>
   </head>
@@ -11,88 +15,84 @@
     <main>
       <h1>Form example</h1>
       <a href="">Home</a>
-      <form> 
+      <form>
         <fieldset>
           <legend>Личные данные</legend>
-         <div>
-          <label for="name">Имя</label> 
-          <input autofocus id="name">
-        </div>
-      
-      <div>
-        <label for="lastname"> Фамилия</label> 
-        <input id="lastname">
-      </div>
-      
-        
-      <div>
-      <label for="bdaytime"> День рождения</label> 
-      <input type="datetime-local" id="bdaytime">
-      </div>  
-      <div>
-          <input type="radio" name="gender" value="male" checked> Male<br>
-          <input type="radio" name="gender" value="female"> Female<br>
-      </div>
-      </fieldset>
-    <br>
+          <div>
+            <label for="name">Имя</label>
+            <input autofocus id="name" />
+          </div>
+
+          <div>
+            <label for="lastname"> Фамилия</label>
+            <input id="lastname" />
+          </div>
+
+          <div>
+            <label for="bdaytime"> День рождения</label>
+            <input type="datetime-local" id="bdaytime" />
+          </div>
+          <div>
+            <input type="radio" name="gender" value="male" checked /> Male<br />
+            <input type="radio" name="gender" value="female" /> Female<br />
+          </div>
+        </fieldset>
+        <br />
         <fieldset>
           <legend>Адрессные данные</legend>
-          
+
           <div>
-            <label for="town">Город</label> 
+            <label for="town">Город</label>
             <select id="town">
-            <option value="Odesa">Odesa</option>
-            <option value="Kyiv">Kyiv</option>
-            <option value="Zaporozhie">Zaporozhie</option>
-          </select>
+              <option value="Odesa">Odesa</option>
+              <option value="Kyiv">Kyiv</option>
+              <option value="Zaporozhie">Zaporozhie</option>
+            </select>
           </div>
-          
-      
-     <div>
-      <label for="street">Улица</label> 
-      <input id="street" type="text">
-      </div>
-      
-      <div>
-      <label for="number">Номер дома</label> 
-      <input id="number" type="text"><br>
-      </div>
-    <div>  
-      <label for="room">Квартира</label> 
-      <input id="room" type="text"><br>
-    </div>
-   </fieldset>
-  
-  <br>
 
-  <fieldset>
+          <div>
+            <label for="street">Улица</label>
+            <input id="street" type="text" />
+          </div>
 
-      <legend>Контактные данные</legend>
-      <div>
-    <label for="mobile">Мобильный</label> 
-     <input id="mobile" type="text">
-    </div>
-    
-  <div>
-    <label for="mobilework">Рабочий </label> 
-    <input id="mobilework" type="text">
-  </div>
-  
-<div>
-     <label for="homenumber">Домашний </label> 
-     <input id="homenumber" type="text"><br>
-  </div>
+          <div>
+            <label for="number">Номер дома</label>
+            <input id="number" type="text" /><br />
+          </div>
+          <div>
+            <label for="room">Квартира</label>
+            <input id="room" type="text" /><br />
+          </div>
+        </fieldset>
 
-<div>
-  <label for="emeil">Email</label> 
-  <input id="emeil" type="text"><br>
-</div>
-</fieldset>
-</form> 
-<br> 
-<button type="button" >Cancel</button>
-<button type="button" >Ok</button>
+        <br />
 
+        <fieldset>
+          <legend>Контактные данные</legend>
+          <div>
+            <label for="mobile">Мобильный</label>
+            <input id="mobile" type="text" />
+          </div>
+
+          <div>
+            <label for="mobilework">Рабочий </label>
+            <input id="mobilework" type="text" />
+          </div>
+
+          <div>
+            <label for="homenumber">Домашний </label>
+            <input id="homenumber" type="text" /><br />
+          </div>
+
+          <div>
+            <label for="emeil">Email</label>
+            <input id="emeil" type="text" /><br />
+          </div>
+        </fieldset>
+      </form>
+      <br />
+      <button type="button">Cancel</button>
+      <button type="button">Ok</button>
     </main>
     <footer></footer>
   </body>
